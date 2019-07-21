@@ -1,0 +1,15 @@
+Command lines used to generate sample files from each year of data.
+
+
+perl -ne 'print if (rand() < .1)' 2017combined.csv > 2017sampled10pct.csv
+
+perl -ne 'print if (rand() < .1)' 2018combined.csv > 2018sampled10pct.csv
+
+perl -ne 'print if (rand() < .1)' 2019combined.csv > 2019sampled10pct.csv
+
+perl -ne 'print if (rand() < .25)' 2017combined.csv > 2017sampled25pct.csv
+
+perl -ne 'print if (rand() < .25)' 2018combined.csv > 2018sampled25pct.csv
+
+perl -ne 'print if (rand() < .25)' 2019combined.csv > 2019sampled25pct.csv
+
